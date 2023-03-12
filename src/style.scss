@@ -1,0 +1,29 @@
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(50, 50, 50);
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        padding: 10px;
+        outline: solid white 1px;
+    }
+
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-shrink: 1;
+
+        div {
+            width: 300px;
+            height: 200px;
+            background: rgb(60, 60, 60);
+            margin: 20px;
+        }
+    }
+}

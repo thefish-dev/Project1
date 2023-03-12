@@ -1,0 +1,28 @@
+* {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(50, 50, 50);
+}
+body h1 {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  outline: solid white 1px;
+}
+body #container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-shrink: 1;
+}
+body #container div {
+  width: 300px;
+  height: 200px;
+  background: rgb(60, 60, 60);
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
